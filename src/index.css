@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@layer utilities {
+    .custom-scroll {
+      scrollbar-width: thin;
+      scrollbar-color: #9ca3af transparent;
+      overscroll-behavior: none;
+    }
+  }
