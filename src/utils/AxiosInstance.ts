@@ -32,6 +32,7 @@ axiosInstance.interceptors.response.use(
     } else {
       errorMessage = error.message;
     }
+    console.error("Error:", errorMessage);   
     return Promise.reject(error);
   }
 );

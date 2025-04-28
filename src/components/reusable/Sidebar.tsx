@@ -107,7 +107,7 @@ const Sidebar = ({ open, onClose, product, mode, onSave }: SidebarProps) => {
       </Box>
       <Divider className="mb-4" />
 
-      {mode === "add" || mode === "edit" && <img src={formData.image} alt="ALt image" height="100px" width="100px" className="m-auto" />}  
+      {(mode === "add" || mode === "edit") && <img src={formData.image} alt="ALt image" height="100px" width="100px" className="m-auto" />}  
       <Box className="space-y-4">
         {(mode === "edit" || mode === "add") && (
           <div>

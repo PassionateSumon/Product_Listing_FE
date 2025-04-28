@@ -4,7 +4,6 @@ import AllFunctionalProducts from "./components/AllFunctionalProducts";
 function App() {
   return <div>
     <Toaster />
-    {/* <ProductPage /> */}
     <AllFunctionalProducts />
   </div>;
 }
